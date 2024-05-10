@@ -15,6 +15,10 @@ a {
     color: inherit
 }
 
+.mr135 {
+    margin-bottom: 135px;
+}
+
 body {
     font-family: "Noto Sans KR", sans-serif;
     color: #222;
@@ -67,7 +71,6 @@ body {
 /* slider */
 .slider {
     position: relative;
-    margin-bottom: 135px;
 }
 
 .slide {
@@ -137,7 +140,6 @@ body {
 .banner {
     display: flex;
     justify-content: center;
-    margin-bottom: 135px;
 }
 
 .banner .bTexts {
@@ -176,29 +178,81 @@ body {
 /* gallery */
 .gallery {}
 
-.gallery .gTexts {
+.gTexts {
     display: flex;
     justify-content: space-between;
 }
 
-.gallery .gTexts .gTitle h3 {
+.gTexts .gTitle h3 {
     font-weight: 700;
     font-size: 26px;
     margin-bottom: 10px;
 }
 
-.gallery .gTexts .gTitle p {
+.gTexts .gTitle p {
     font-size: 16px;
     color: #4b4b4b;
     margin-bottom: 30px;
 }
 
-.gallery .gTexts .gImgs ul {
-    display: flex;
-    flex-wrap: wrap;
+.gImgs {
+
 }
 
-.gallery .gTexts .gImgs li {
+.gallery .gImgs ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gImgs ul li {
     display: flex;
     width: 570px;
+}
+
+/* instagram */
+.iTexts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iTitle {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.iText {
+    font-size: 14px;
+    color: #808080;
+}
+
+.iImgs ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.iImgs ul li {
+    display: flex;
+    width: 170px;
+    height: 170px;
+}
+
+/* footer */
+.footer {
+    background-color: #F4F4F6;
+    height: 179px;
+    text-align: center;
+}
+
+.copy {
+    padding-top: 52px;
+    margin-bottom: 30px;
+    color: #808080;
+    font-size: 13px;
+}
+
+.sns {
+    color: #808080;
+    font-size: 22px;
 }
