@@ -22,6 +22,7 @@ body {
     font-weight: 400;
 }
 
+/* header */
 .header {
     display: flex;
     height: 80px;
@@ -54,11 +55,19 @@ body {
 }
 
 .user button {
+    width: 66px;
+    height: 32px;
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
     background-color: #0084BC;
 }
 
+/* slider */
 .slider {
     position: relative;
+    margin-bottom: 135px;
 }
 
 .slide {
@@ -73,6 +82,24 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.slide .texts h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.slide .texts h2 {
+    font-size: 96px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.slide .texts p {
+    font-size: 14px;
+    color: #666;
+}
+
 
 .slideArrowws {
     position: absolute;
@@ -98,4 +125,80 @@ body {
     top: 50%;
     right: 100px;
     transform: translate(-50%);
+}
+
+/* contents */
+.contents {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 135px;
+}
+
+.banner .bTexts {
+    padding-top: 63px;
+    padding-left: 30px;
+}
+
+.banner .bTexts h2 {
+    width: 380px;
+    margin-bottom: 19px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #3a3a3a;
+}
+
+.banner .bTexts p {
+    width: 505px;
+    margin-bottom: 70px;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.banner .bTexts .btns button{
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    background-color: #222;
+    margin-right: 19px;
+    cursor: pointer;
+}
+
+.banner .bImg {
+    margin-left: auto;
+}
+
+/* gallery */
+.gallery {}
+
+.gallery .gTexts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery .gTexts .gTitle h3 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.gallery .gTexts .gTitle p {
+    font-size: 16px;
+    color: #4b4b4b;
+    margin-bottom: 30px;
+}
+
+.gallery .gTexts .gImgs ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .gTexts .gImgs li {
+    display: flex;
+    width: 570px;
 }
